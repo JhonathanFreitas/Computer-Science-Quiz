@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  background: linear-gradient(90deg, rgba(91,30,159,1) 0%, rgba(77,39,182,1) 100%);
+  color: #000;
+}
+
+body h2 {
+  margin-bottom: 30px;
+  color: #000;
+  text-align: center;
+}
+
+.menulateral{
+  z-index: 1;
+  background-color: #D9D9D9;
+  width: 189px;
+  height: 300px;
+  margin: 0;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.menulateral ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.menulateral li{
+  border-bottom: solid 1px white;
+  padding: 5px;
+  color: #fff;
+}
+
+.menulateral li:hover{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+  width: 30%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.frase{
+  text-align: center;
+  color: #000;
+  margin-top: -20px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 20px;
+}
+
+.spnQtd {
+  margin-bottom:-35px;
+  text-align: end;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #008CCC;
+  color: #fff;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
